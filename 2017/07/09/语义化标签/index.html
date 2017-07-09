@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+    <title>HTML 5的革新——语义化标签 | coderWang的博客</title>
+    <meta name="renderer" content="webkit">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="在路上。">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="HTML 5的革新——语义化标签 | coderWang的博客">
+    <meta name="twitter:description" content="在路上。">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="HTML 5的革新——语义化标签 | coderWang的博客">
+    <meta property="og:description" content="在路上。">
+
+    
+    <meta name="author" content="Wang">
+    
+    <link rel="stylesheet" href="/css/vno.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+    
+    <link rel="icon" href="/images/avatar-small.png">
+    
+
+    <meta name="generator" content="hexo"/>
+    
+    <link rel="alternate" type="application/rss+xml" title="coderWang的博客" href="/atom.xml">
+    
+
+    <link rel="canonical" href="http://comradeWang.github.com/2017/07/09/语义化标签/"/>
+
+                 
+</head>
+
+<body class="home-template no-js">
+    <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
+
+    
+<header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/bg2.jpg)">
+  <div class="panel-main">
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        <a href="/" title="前往 coderWang的博客 的主页"><img src="/images/myLogo.jpg" width="80" alt="coderWang的博客 logo" class="panel-cover__logo logo" /></a>
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage for coderWang的博客">coderWang的博客</a></h1>
+        
+        <span class="panel-cover__subtitle panel-subtitle">是谁在召唤我？</span>
+        
+        <hr class="panel-cover__divider" />
+        <p class="panel-cover__description">在路上。</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+        <div class="navigation-wrapper">
+          <div>
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/#blog" title="访问博客" class="blog-button">博客</a></li>
+            
+              <li class="navigation__item"><a href="http://wxyp.site:8080/PersonResume/">关于我</a></li>
+            
+            </ul>
+          </nav>
+          </div>
+          <div>
+          <nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+
+  <!-- Weibo-->
+  
+  <li class="navigation__item">
+    <a href="http://weibo.com/u/2473238251" title="我的微博" target="_blank">
+      <i class='social fa fa-weibo'></i>
+      <span class="label">Weibo</span>
+    </a>
+  </li> 
+
+
+  <!-- Github -->
+  
+  <li class="navigation__item">
+    <a href="https://github.com/comradeWang" title="查看我的GitHub主页" target="_blank">
+      <i class='social fa fa-github'></i>
+      <span class="label">Github</span>
+    </a>
+  </li>
+
+
+<!-- Stack Overflow -->
+        
+
+  <!-- Google Plus -->
+  
+
+<!-- Facebook -->
+
+  
+<!-- Twitter -->
+
+  
+
+  <li class="navigation__item">
+    <a href="/atom.xml" title="RSS" target="_blank">
+      <i class='social fa fa-rss'></i>
+      <span class="label">RSS</span>
+    </a>
+  </li>
+
+
+
+  </ul>
+</nav>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay cover-purple"></div>
+  </div> 
+</header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <article class="post-container post-container--single">
+
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2017-07-09T02:41:00.000Z" class="post-list__meta--date date">2017-07-09</time> &#8226; <span class="post-meta__tags tags">于&nbsp;
+  <a class="tag-link" href="/tags/Html5/">Html5</a>
+ </span>
+      <span class="page-pv">
+      &nbsp;阅读&nbsp;<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>
+      </span> 
+   
+    </div>
+    <h1 class="post-title">HTML 5的革新——语义化标签</h1>
+  </header>
+
+  <section class="post">
+    <h1 id="HTML-5的革新——语义化标签"><a href="#HTML-5的革新——语义化标签" class="headerlink" title="HTML 5的革新——语义化标签"></a>HTML 5的革新——语义化标签</h1><p>标签： html5 语义化标签</p>
+<hr>
+<blockquote>
+<p>HTML 5的革新之一：语义化标签一节元素标签。<br>在HTML 5出来之前，我们用<code>div</code>来表示页面章节，但是这些 <code>div</code>都没有实际意义。（即使我们用css样式的id和class形容这块内容的意义）。这些标签只是我们提供给浏览器的指令，只是定义一个网页的某些部分。但现在，那些之前没“意义”的标签因为因为html5的出现消失了，这就是我们平时说的“语义”。</p>
+</blockquote>
+<p>看下图没有用div标签来布局<br><img src="http://www.html5jscss.com/pic/htmljscss/html5-layout.jpg" alt="此处输入图片的描述"></p>
+<hr>
+<h2 id="Html5-的布局"><a href="#Html5-的布局" class="headerlink" title="Html5 的布局"></a>Html5 的布局</h2><p>嗯，如上图那个页面结构没有一个div，都是采用html5语义标签（用哪些标签，关键取决于你的设计目标）。<br>但是也不要因为html5新标签的出现，而随意用之，错误的使用肯定会事与愿违。所以有些地方还是要用div的，就是因为div没有任何意义的元素，他只是一个标签，仅仅是用来构建外观和结构。因此是最适合做容器的标签。<br>W3C定义了这些语义标签，不可能完全符合我们有时的设计目标，就像制定出来的法律不可能流传100年都不改变，更何况它才制定没多久，不可能这些语义标签对所以设计目标的适应。只是一定程度上的“通用”，我们的目标是让爬虫读懂重要的东西就够了。<br>结论：不能因为有了HTML 5标签就弃用了div，每个事物都有它的独有作用的。<br>节点元素标签因使用的地方不同，我将他们分为：节元素标签、文本元素标签、分组元素标签分开来讲解HTML5中新增加的语义化标签和使用总结。</p>
+<hr>
+<h2 id="header元素"><a href="#header元素" class="headerlink" title="header元素"></a>header元素</h2><p>header 元素代表“网页”或“section”的页眉。<br>通常包含<code>h1-h6</code>元素或<code>hgroup</code>，作为整个页面或者一个内容块的标题。也可以包裹一节的目录部分，一个搜索框，一个<code>nav</code>，或者任何相关logo。<br>整个页面没有限制header元素的个数，可以拥有多个，可以为每个内容块增加一个header元素</p>
+<pre><code>&lt;header&gt;
+&lt;hgroup&gt;
+    &lt;h1&gt;网站标题&lt;/h1&gt;
+    &lt;h1&gt;网站副标题&lt;/h1&gt;
+&lt;/hgroup&gt;
+&lt;/header&gt;
+</code></pre><p>hearder使用注意：</p>
+<ul>
+<li>可以是“网页”或任意“section”的头部部分；</li>
+<li>没有个数限制。</li>
+<li>如果hgroup或h1-h6自己就能工作的很好，那就不要用header。</li>
+</ul>
+<hr>
+<h2 id="footer元素"><a href="#footer元素" class="headerlink" title="footer元素"></a>footer元素</h2><p><code>footer</code>元素代表“网页”或“section”的页脚，通常含有该节的一些基本信息，譬如：作者，相关文档链接，版权资料。如果<code>footer</code>元素包含了整个节，那么它们就代表附录，索引，提拔，许可协议，标签，类别等一些其他类似信息。</p>
+<pre><code>&lt;footer&gt;
+COPYRIGHT@wxy
+&lt;/footer&gt;
+</code></pre><p>footer使用注意：</p>
+<ul>
+<li>可以是“网页”或任意“section”的底部部分；</li>
+<li>没有个数限制，除了包裹的内容不一样，其他跟header类似。</li>
+</ul>
+<hr>
+<h2 id="hgroup元素"><a href="#hgroup元素" class="headerlink" title="hgroup元素"></a>hgroup元素</h2><p><code>hgroup</code>元素代表“网页”或“section”的标题，当元素有多个层级时，该元素可以将<code>h1</code>到<code>h6</code>元素放在其内，譬如文章的主标题和副标题的组合</p>
+<pre><code>&lt;hgroup&gt;
+&lt;h1&gt;这是一篇介绍HTML 5语义化标签和更简洁的结构&lt;/h1&gt;
+&lt;h2&gt;HTML 5&lt;/h2&gt;
+&lt;/hgroup&gt;
+</code></pre><p>hgroup使用注意：</p>
+<ul>
+<li>如果只需要一个h1-h6标签就不用hgroup</li>
+<li>如果有连续多个h1-h6标签就用hgroup</li>
+<li>如果有连续多个标题和其他文章数据，h1-h6标签就用hgroup包住，和其他文章元数据一起放入header标签</li>
+</ul>
+<hr>
+<p>##nav元素<br><code>nav</code>元素代表页面的导航链接区域。用于定义页面的 <strong><em>主要导航部分</em></strong>。</p>
+<pre><code>&lt;nav&gt;
+&lt;ul&gt;
+    &lt;li&gt;HTML 5&lt;/li&gt;
+    &lt;li&gt;CSS3&lt;/li&gt;
+    &lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+</code></pre><p>但是我在有些时候却情不自禁的想用它，譬如：侧边栏上目录，面包屑导航，搜索样式，或者下一篇上一篇文章，但是事实上规范上说nav只能用在页面主要导航部分上。页脚区域中的链接列表，虽然指向不同网站的不同区域，譬如服务条款，版权页等，这些footer元素就能够用了。</p>
+<p>nav使用注意：</p>
+<ul>
+<li>用在整个页面主要导航部分上，不合适就不要用nav元素；</li>
+</ul>
+<hr>
+<p>##aside元素</p>
+<p><code>aside</code>元素被包含在article元素中作为主要内容的附属信息部分，其中的内容可以是与当前文章有关的相关资料、标签、名次解释等。（特殊的section）</p>
+<p>在article元素之外使用作为页面或站点全局的附属信息部分。最典型的是侧边栏，其中的内容可以是日志串连，其他组的导航，甚至广告，这些内容相关的页面。</p>
+<pre><code>&lt;article&gt;
+&lt;p&gt;内容&lt;/p&gt;
+&lt;aside&gt;
+    &lt;h1&gt;作者简介&lt;/h1&gt;
+    &lt;p&gt;comradeWang，前端一枚&lt;/p&gt;
+&lt;/aside&gt;
+&lt;/article&gt;
+</code></pre><p>aside使用总结：</p>
+<ul>
+<li>aside在article内表示主要内容的附属信息，</li>
+<li>在article之外可做侧边栏</li>
+<li>如果是广告，其它日志链接 或者其它分类导航也可以用。</li>
+</ul>
+<hr>
+<p>##section元素<br><code>section</code>元素代表文档中的“节”或“段”，“段”可以是指一篇文章里按照主题的分段；“节”可以是指一个页面里的分组。<br><code>section</code>通常还带标题，虽然html5中section会自动给标题<code>h1-h6</code>降级，但是最好手动给他们降级。如下：</p>
+<pre><code>&lt;section&gt;
+&lt;h1&gt;section是啥？&lt;/h1&gt;
+&lt;article&gt;
+    &lt;h2&gt;关于section&lt;/h1&gt;
+    &lt;p&gt;section的介绍&lt;/p&gt;
+    &lt;section&gt;
+        &lt;h3&gt;关于其他&lt;/h3&gt;
+        &lt;p&gt;关于其他section的介绍&lt;/p&gt;
+    &lt;/section&gt;
+&lt;/article&gt;
+&lt;/section&gt;
+</code></pre><p>section使用注意：</p>
+<p>  一张页面可以用section划分为简介、文章条目和联系信息。不过在文章内页，最好用article。section不是一般意义上的容器元素，如果想作为样式展示和脚本的便利，可以用div。</p>
+<ul>
+<li>表示文档中的节或者段；</li>
+<li>article、nav、aside可以理解为特殊的section，所以如果可以用article、nav、aside就不要用section，没实际意义的就用div</li>
+</ul>
+<hr>
+<p>##article元素<br><code>article</code>元素最容易跟<code>section</code>和<code>div</code>容易混淆，其实<code>article</code>代表一个在文档，页面或者网站中自成一体的内容，其目的是为了让开发者独立开发或重用。譬如论坛的帖子，博客上的文章，一篇用户的评论，一个互动的widget小工具。（特殊的section）</p>
+<pre><code>&lt;article&gt;
+    &lt;h1&gt;一篇文章&lt;/h1&gt;
+    &lt;p&gt;文章内容..&lt;/p&gt;
+    &lt;footer&gt;
+        &lt;p&gt;&lt;small&gt;test&lt;/small&gt;&lt;/p&gt;
+    &lt;/footer&gt;
+&lt;/article&gt;
+</code></pre><p>设计师、程序员、前端工程师都是一个独立的整体，他们组成了网站制作基本配备，当然还有其他成员~~。设计师、程序员、前端工程师就像article，是一个个独立的整体，而section将这些自成一体的article包裹，就组成了一个团体。</p>
+<p>article和section和例子就例举这么多了，具体情况具体分析，不易深究。漏了<code>div</code>，其实div就是只是想用来把元素组合或者给它们加样式时使用。</p>
+<p>article使用注意：</p>
+<ul>
+<li>自身独立的情况下：用article</li>
+<li>是相关内容：用section</li>
+<li>没有语义的：用div</li>
+</ul>
+<hr>
+<p>##HTML5其他结构元素标签<br>HTML5节元素标签包括<code>body article nav aside section header footer hgroup</code>，还有<code>h1-h6 address</code>。<br><code>address</code>代表区块容器，必须是作为联系信息出现，邮编地址、邮件地址等等,一般出现在footer。<br><code>h1-h6</code>因为<code>hgroup</code>，<code>section</code>和<code>article</code>的出现，h1-h6定义也发生了变化，允许一张页面出现多个<code>h1</code>。</p>
+
+  </section>
+
+</article>
+
+<section class="read-more">
+           
+    
+        
+        
+               
+            <div class="read-more-item">
+                <span class="read-more-item-dim">更早的文章</span>
+                <h2 class="post-list__post-title post-title"><a href="/2017/07/05/Html5新特性/" title="Html5面试题（新特性）">Html5面试题（新特性）</a></h2>
+                <p class="excerpt">
+                
+                Web前端面试题1. 新的 HTML5 文档类型和字符集是？1234 HTML5 文档类型很简单：&amp;lt;!doctype html&amp;gt;HTML5 使用 UTF-8 编码示例：&amp;lt;meta charset=”UTF-8″&amp;gt;
+2. HTML5 中如何嵌入’音频’？1234&amp;lt;audi
+                &hellip;
+                </p>
+                <div class="post-list__meta"><time datetime="2017-07-05T05:29:00.000Z" class="post-list__meta--date date">2017-07-05</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;
+  <a class="tag-link" href="/tags/面试题/">面试题</a>
+</span><a class="btn-border-small" href="/2017/07/05/Html5新特性/">继续阅读</a></div>
+                       
+            </div>
+        
+     
+   
+   
+  
+</section>
+
+  
+
+            <footer class="footer">
+    <span class="footer__copyright">
+        本站点采用 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+    </span>
+    <span class="footer__copyright">
+        基于 <a href="http://hexo.io">Hexo</a> 搭建，感谢 <a href="https://pages.github.com/">GitHub Pages</a> 提供免费的托管服务
+    </span>
+    <span class="footer__copyright">
+        &copy; 2017 - 本站使用 <a href="https://github.com/monniya/hexo-theme-new-vno ">new-vno</a> 主题,
+        由<a href="https://monniya.com ">@Monniya</a> 修改自 <a href="https://github.com/lenbo-ma/hexo-theme-vno" target="_blank">Vno</a>, 原创出自<a href="http://github.com/onevcat/vno" target="_blank">onevcat</a>
+    </span>
+    
+</footer>
+
+
+        </div>
+    </div>
+
+     
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-78918255-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+    
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?9cdad07c755fa23f6aced510c6760e87";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+
+
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+    
+</body>
+</html>
